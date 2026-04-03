@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tos2bro - Ubah Sampah Jadi Energi</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <header class="navbar">
         <div class="container nav-container">
             <div class="logo">
-                <span style="color: var(--primary); font-size: 1.5rem;">🌱</span> tos<span>2</span>bro
+                <span style="color: var(--primary); font-size: 1.5rem;">&#127793;</span> tos<span>2</span>bro
             </div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
+                <li><a href="#volume">Volume</a></li>
                 <li><a href="#services">Layanan</a></li>
                 <li><a href="#how-it-works">Cara Kerja</a></li>
                 <li><a href="#contact">Kontak</a></li>
@@ -31,11 +35,87 @@
     <section id="home" class="hero container fade-in">
         <div class="hero-content">
             <h1>Ubah Sampah Jadi Berkah Energi.</h1>
-            <p>Satu ekosistem canggih dari tos2bro. Ambil sampah di pintu rumah Anda, olah menjadi bahan bakar terbarukan untuk industri.</p>
+            <p>Satu ekosistem canggih dari tos2bro. Ambil sampah di pintu rumah Anda, olah menjadi bahan bakar
+                terbarukan untuk industri.</p>
             <button class="btn btn-primary action-btn">Mulai Sekarang (Free)</button>
         </div>
         <div class="hero-image">
-            <img src="assets/images/gambar sampul.png" alt="Ilustrasi tos2bro" onerror="this.src='https://via.placeholder.com/500x400/e6f7f2/00b482?text=Ilustrasi+Hero'">
+            <img src="assets/images/gambar sampul.png" alt="Ilustrasi tos2bro"
+                onerror="this.src='https://via.placeholder.com/500x400/e6f7f2/00b482?text=Ilustrasi+Hero'">
+        </div>
+    </section>
+
+    <section id="volume" class="volume-section section-bg">
+        <div class="container fade-in">
+            <div class="section-header text-center">
+                <span class="subtitle">Volume Monitoring</span>
+                <h2>Volume Sampah hingga Produksi Bahan Bakar</h2>
+                <p>Pantau arus volume sampah masuk, hasil bahan bakar, dan residu yang masih menunggu proses pengolahan.
+                </p>
+            </div>
+
+            <div class="volume-grid">
+                <article class="volume-card">
+                    <div class="volume-card-head">
+                        <span class="volume-badge">Masuk Bulan Ini</span>
+                        <span class="volume-symbol">VS</span>
+                    </div>
+                    <h3>Volume Sampah</h3>
+                    <div class="volume-value">
+                        <span class="counter" data-target="128.4" data-decimals="1">0</span>
+                        <span class="volume-unit">ton</span>
+                    </div>
+                    <p>Volume sampah yang telah terkumpul dari layanan penjemputan dan mitra pemilahan.</p>
+                    <div class="volume-meter" aria-hidden="true">
+                        <div class="volume-fill" data-fill="82"></div>
+                    </div>
+                    <div class="volume-meta">
+                        <span>Target 156 ton</span>
+                        <span>82% tercapai</span>
+                    </div>
+                </article>
+
+                <article class="volume-card">
+                    <div class="volume-card-head">
+                        <span class="volume-badge">Output Energi</span>
+                        <span class="volume-symbol">VF</span>
+                    </div>
+                    <h3>Volume Produksi Bahan Bakar</h3>
+                    <div class="volume-value">
+                        <span class="counter" data-target="74.8" data-decimals="1">0</span>
+                        <span class="volume-unit">ton</span>
+                    </div>
+                    <p>Hasil konversi sampah menjadi bahan bakar alternatif siap kirim untuk kebutuhan industri.</p>
+                    <div class="volume-meter" aria-hidden="true">
+                        <div class="volume-fill volume-fill-fuel" data-fill="63"></div>
+                    </div>
+                    <div class="volume-meta">
+                        <span>Konversi aktif</span>
+                        <span>63% dari input</span>
+                    </div>
+                </article>
+
+                <article class="volume-card">
+                    <div class="volume-card-head">
+                        <span class="volume-badge">Perlu Tindak Lanjut</span>
+                        <span class="volume-symbol">SU</span>
+                    </div>
+                    <h3>Sampah Belum Terolah</h3>
+                    <div class="volume-value">
+                        <span class="counter" data-target="21.6" data-decimals="1">0</span>
+                        <span class="volume-unit">ton</span>
+                    </div>
+                    <p>Residu dan material yang masih berada dalam antrean sortir, pengeringan, atau pemrosesan
+                        lanjutan.</p>
+                    <div class="volume-meter" aria-hidden="true">
+                        <div class="volume-fill volume-fill-pending" data-fill="28"></div>
+                    </div>
+                    <div class="volume-meta">
+                        <span>Antrean proses</span>
+                        <span>28% dari input</span>
+                    </div>
+                </article>
+            </div>
         </div>
     </section>
 
@@ -45,10 +125,10 @@
                 <span class="subtitle">Core Services</span>
                 <h2>Dua Solusi dalam Satu Genggaman.</h2>
             </div>
-            
+
             <div class="services-grid">
                 <div class="service-card">
-                    <div class="card-icon">♻️</div>
+                    <div class="card-icon">&#9851;&#65039;</div>
                     <div class="card-content">
                         <h3>tos2trash</h3>
                         <p class="card-subtitle">Jasa Ambil Sampah</p>
@@ -62,7 +142,7 @@
                 </div>
 
                 <div class="service-card">
-                    <div class="card-icon">🔋</div>
+                    <div class="card-icon">&#128267;</div>
                     <div class="card-content">
                         <h3>tos2fuel</h3>
                         <p class="card-subtitle">Energi Hijau Industri</p>
@@ -83,30 +163,89 @@
             <span class="subtitle">Bagaimana Ini Bekerja</span>
             <h2>4 Langkah Mudah Bos2bro</h2>
         </div>
-        
+
         <div class="steps-grid">
             <div class="step-item">
-                <div class="step-icon">📱</div>
+                <div class="step-icon">&#128241;</div>
                 <h4>Pesan Penjemputan</h4>
                 <p>via aplikasi tos2trash</p>
             </div>
-            <div class="step-arrow">➔</div>
+            <div class="step-arrow">&#10140;</div>
             <div class="step-item">
-                <div class="step-icon">🚚</div>
+                <div class="step-icon">&#128666;</div>
                 <h4>Petugas Menjemput</h4>
-                <p>& Memilah sampah</p>
+                <p>&amp; Memilah sampah</p>
             </div>
-            <div class="step-arrow">➔</div>
+            <div class="step-arrow">&#10140;</div>
             <div class="step-item">
-                <div class="step-icon">🏭</div>
+                <div class="step-icon">&#127981;</div>
                 <h4>Konversi di tos210</h4>
                 <p>Proses daur ulang</p>
             </div>
-            <div class="step-arrow">➔</div>
+            <div class="step-arrow">&#10140;</div>
             <div class="step-item">
-                <div class="step-icon">🔥</div>
+                <div class="step-icon">&#128293;</div>
                 <h4>Bahan Bakar Siap</h4>
                 <p>di tos2fuel</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="tracking" class="container fade-in" style="padding:40px 0;">
+        <div class="section-header text-center">
+            <span class="subtitle">IoT Feature</span>
+            <h2>Tracking Armada</h2>
+        </div>
+
+        <div style="text-align:center; margin-top:20px;">
+            <p style="font-size:14px; color:#666;">
+                Monitoring lokasi armada pengangkut sampah secara real-time
+            </p>
+
+            <div
+                style="margin-top:20px; background:#ffffff; padding:15px; border-radius:10px; display:inline-block; font-size:14px;">
+                <p id="gps-status">Menghubungkan ke armada...</p>
+                <p id="gps-coord" style="font-weight:bold; color:var(--primary);">-</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="stakeholder" class="container fade-in" style="padding:60px 0;">
+        <div class="section-header text-center">
+            <span class="subtitle">Kolaborasi</span>
+            <h2>Stakeholder &amp; Mitra</h2>
+        </div>
+
+        <div
+            style="display:grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap:20px; margin-top:30px; text-align:center;">
+            <div style="background:#fff; padding:20px; border-radius:10px;">
+                &#127963;&#65039;<br>
+                <strong>Pemerintah</strong>
+                <p style="font-size:12px; color:#666;">Regulasi &amp; Dukungan</p>
+            </div>
+
+            <div style="background:#fff; padding:20px; border-radius:10px;">
+                &#9851;&#65039;<br>
+                <strong>Masyarakat</strong>
+                <p style="font-size:12px; color:#666;">Sumber Sampah</p>
+            </div>
+
+            <div style="background:#fff; padding:20px; border-radius:10px;">
+                &#128666;<br>
+                <strong>Armada</strong>
+                <p style="font-size:12px; color:#666;">Transportasi</p>
+            </div>
+
+            <div style="background:#fff; padding:20px; border-radius:10px;">
+                &#127981;<br>
+                <strong>Industri</strong>
+                <p style="font-size:12px; color:#666;">Pengguna Bahan Bakar</p>
+            </div>
+
+            <div style="background:#fff; padding:20px; border-radius:10px;">
+                &#128187;<br>
+                <strong>Platform IoT</strong>
+                <p style="font-size:12px; color:#666;">Monitoring &amp; Sistem</p>
             </div>
         </div>
     </section>
@@ -114,15 +253,18 @@
     <section id="contact" class="cta-section section-bg fade-in">
         <div class="container cta-container">
             <div class="cta-map">
-                <img src="assets/images/maps.png" alt="Lokasi Blitar" onerror="this.src='https://via.placeholder.com/300x200/e0e0e0/666?text=Peta+Blitar'">
+                <img src="assets/images/maps.png" alt="Lokasi Blitar"
+                    onerror="this.src='https://via.placeholder.com/300x200/e0e0e0/666?text=Peta+Blitar'">
             </div>
             <div class="cta-content">
                 <h2>Mulai Gerakan Hijau di Blitar!</h2>
                 <div class="contact-info">
-                    <p>📧 halo@tos2bro.com</p>
-                    <p>📍 Alamat Kantor Pilot Project Blitar</p>
+                    <p>&#128231; halo@tos2bro.com</p>
+                    <p>&#128205; Alamat Kantor Pilot Project Blitar</p>
                 </div>
-                <button class="btn btn-primary action-btn">Hubungi Kami</button>
+                <a href="https://wa.me/6287874588706" target="_blank" class="btn btn-primary action-btn">
+                    Hubungi Kami
+                </a>
             </div>
         </div>
     </section>
@@ -139,5 +281,18 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+        function updateGPS() {
+            const lat = (-8.1 + Math.random() * 0.1).toFixed(6);
+            const lng = (112.2 + Math.random() * 0.1).toFixed(6);
+
+            document.getElementById("gps-status").innerText = "Armada aktif (real-time)";
+            document.getElementById("gps-coord").innerText = `Lat: ${lat}, Lng: ${lng}`;
+        }
+
+        setInterval(updateGPS, 3000);
+        updateGPS();
+    </script>
 </body>
+
 </html>
